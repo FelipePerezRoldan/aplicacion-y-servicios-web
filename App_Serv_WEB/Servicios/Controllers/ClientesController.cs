@@ -6,6 +6,7 @@ namespace Servicios.Controllers
     [RoutePrefix("api/Clientes")]
     public class ClientesController : ApiController
     {
+        [HttpGet]
         [Route("ConsultarDocumento")]
         public CLIEnte ConsultarDocumento(string documento)
         {
