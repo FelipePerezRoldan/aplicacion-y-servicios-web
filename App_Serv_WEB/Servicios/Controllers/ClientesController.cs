@@ -3,6 +3,7 @@ using System.Web.Http;
 
 namespace Servicios.Controllers
 {
+    //[EnableCors(origins: "http://localhost:59788/", headers: "*", methods: "*")]
     [RoutePrefix("api/Clientes")]
     public class ClientesController : ApiController
     {
